@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skins xmlns="http://myfaces.apache.org/trinidad/skin">
+  <skin>
+    <id>DemoSkin.desktop</id>
+    <family>DemoSkin</family>
+    <extends>alta-v1.desktop</extends>
+    <render-kit-id>org.apache.myfaces.trinidad.desktop</render-kit-id>
+    <style-sheet-name>skins/DemoSkin/DemoSkin.css</style-sheet-name>
+    <bundle-name>multilanguageapp.view.skinBundle</bundle-name>
+    <metadata>
+      <description-bundle>multilanguageapp.view.skinBundle</description-bundle>
+    </metadata>
+  </skin>
+</skins>

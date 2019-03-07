@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.9.14" id="DataBindings"
+             SeparateXMLFiles="false" Package="multilanguageapp.view" ClientType="Generic">
+  <pageMap>
+    <page path="/MultiLangDemoPage.jsf" usageId="multilanguageapp_view_MultiLangDemoPagePageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="multilanguageapp_view_MultiLangDemoPagePageDef"
+          path="multilanguageapp.view.pageDefs.MultiLangDemoPagePageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <BC4JDataControl id="multilangAMDataControl" Package="multilanguageapp.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
+                     SupportsFindMode="true" SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true" Configuration="multilangAMLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+</Application>
